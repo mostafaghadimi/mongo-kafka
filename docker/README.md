@@ -12,7 +12,7 @@ The MongoDB Kafka Source Connector also publishes all change stream events from 
 
 ## Running the example
 
-To run the example: `./run.sh` which will:
+To run the example: execute `sudo chmod +x run.sh` and `./run.sh` commands, which will:
   
   - Run `docker-compose up` 
   - Wait for MongoDB, Kafka, Kafka Connect to be ready
